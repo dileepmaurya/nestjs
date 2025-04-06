@@ -7,8 +7,9 @@
   DB_NAME=MyStore
   DB_LOGGING=true
 
-## typeorm models pointed like that `"models": "https://github.com/dileepmaurya/typeorm"`
-https://github.com/dileepmaurya/typeorm
+## typeorm models pointed like that in package.json:
+ `"models": "https://github.com/dileepmaurya/typeorm"`
+
 
 ## To setup typeorm models on local for development follow instructions
    https://github.com/dileepmaurya/typeorm/blob/master/README.md#add-database-details-in-env-file
