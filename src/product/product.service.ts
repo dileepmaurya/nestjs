@@ -19,7 +19,6 @@ export class ProductService{
     }
 
     async find(id: string): Promise<Product | null>{
-        console.log(id);
         return this.productRepository.findOne({
             where: {
                 id
